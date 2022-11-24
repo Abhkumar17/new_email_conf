@@ -42,8 +42,9 @@
                                         <td>{{$student->lastname}}</td>
                                         <td>{{$student->email}}</td>
                                         <td>{{$student->phone}}</td>
-                                        <td><a href="" class="btn btn-info" data-toggle="modal" data-target="#studentEditModal">Edit</a></td>
-                                    </tr>
+                                        <td><a href="" class="btn btn-primary" data-toggle="modal" data-target="#studentEditModal">Edit</a></td>
+                                        <td><a href="" class="btn btn-danger">Delete</a></td>
+                                      </tr>
                                     @endforeach
                                 </tbody>
                             </table>
